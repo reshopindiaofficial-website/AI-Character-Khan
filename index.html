@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="theme-color" content="#fef7ff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141218" media="(prefers-color-scheme: dark)">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="कैरेक्टर खान">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" id="mf">
+<script>(function(){try{var o=location.origin+location.pathname.replace(/[^\/]*$/,"");var m={name:"AI Character Khan",short_name:"Khan",description:"Free HD AI Characters",start_url:o,scope:o,display:"standalone",orientation:"portrait",background_color:"#fef7ff",theme_color:"#6750a4",icons:[{src:o+"icon-192.png",sizes:"192x192",type:"image/png",purpose:"any"},{src:o+"icon-512.png",sizes:"512x512",type:"image/png",purpose:"any"}]};document.getElementById("mf").href=URL.createObjectURL(new Blob([JSON.stringify(m)],{type:"application/manifest+json"}))}catch(e){}})()</script>
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>AI Character Khan — Free HD AI Characters</title>
+<meta name="description" content="अपने AI video के लिए HD Characters Free में लो। No sign-up, no payment.">
+<!-- Share preview: og-image.jpg (1200x630) -->
+<meta property="og:type" content="website"><meta property="og:site_name" content="AI Character Khan">
+<meta property="og:title" content="AI Character Khan — Free HD AI Characters">
+<meta property="og:description" content="अपने AI video के लिए HD Characters Free में लो। No sign-up.">
+<link rel="canonical" href="https://ai-character-khan.pages.dev/"><meta property="og:url" content="https://ai-character-khan.pages.dev/"><meta property="og:image" content="https://ai-character-khan.pages.dev/og-image.jpg"><meta property="og:image:secure_url" content="https://ai-character-khan.pages.dev/og-image.jpg"><meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:alt" content="AI Character Khan - HD AI Characters Free Download Karo"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://ai-character-khan.pages.dev/og-image.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 120 120%22%3E%3Crect width=%22120%22 height=%22120%22 rx=%2230%22 fill=%22%231d1b20%22/%3E%3Cpath d=%22M44 24c-10 0-12 4-12 12v10c0 6-4 10-10 14 6 4 10 8 10 14v10c0 8 2 12 12 12%22 fill=%22none%22 stroke=%22%23d0bcff%22 stroke-width=%226%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22/%3E%3Cpath d=%22M76 24c10 0 12 4 12 12v10c0 6 4 10 10 14-6 4-10 8-10 14v10c0 8-2 12-12 12%22 fill=%22none%22 stroke=%22%23d0bcff%22 stroke-width=%226%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22/%3E%3Ccircle cx=%2260%22 cy=%2252%22 r=%229%22 fill=%22%23ffb877%22/%3E%3Cpath d=%22M46 86c0-10 6-15 14-15s14 5 14 15z%22 fill=%22%23ffb877%22/%3E%3C/svg%3E" type="image/svg+xml">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="preconnect" href="https://www.gstatic.com" crossorigin><link rel="preconnect" href="https://res.cloudinary.com" crossorigin><link rel="preconnect" href="https://firestore.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:light dark;--bg:#fef7ff;--sf:#f7f2fa;--sf2:#ece6f0;--ink:#1d1b20;--mut:#49454f;--ol:#cac4d0;--pr:#6750a4;--onpr:#fff;--prc:#eaddff;--onprc:#21005d;--tc:#ffdcc2;--ontc:#2e1500;--pink:#b3261e;--mint:#146c2e;--inv:#322f35;--oninv:#f5eff7;--f:"Mukta","Noto Sans Devanagari",system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root{--bg:#141218;--sf:#1d1b20;--sf2:#2b2930;--ink:#e6e0e9;--mut:#cac4d0;--ol:#49454f;--pr:#d0bcff;--onpr:#381e72;--prc:#4f378b;--onprc:#eaddff;--tc:#5b3a00;--ontc:#ffddb3;--pink:#f2b8b5;--mint:#7fdc9a;--inv:#e6e0e9;--oninv:#322f35}}
+*{box-sizing:border-box;margin:0;-webkit-tap-highlight-color:transparent}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth;scroll-padding-top:136px}
+body{background:var(--bg);color:var(--ink);font:400 16px/1.55 var(--f);min-height:100vh;overflow-x:hidden;padding:0 env(safe-area-inset-right) 0 env(safe-area-inset-left)}
+button,input,select{font:inherit;color:inherit}
+button{-webkit-user-select:none;user-select:none}
+:focus-visible{outline:3px solid var(--pr);outline-offset:2px;border-radius:12px}
+.wrap{width:min(1200px,100% - 32px);margin-inline:auto}
+.rp{position:absolute;border-radius:50%;background:currentColor;opacity:.16;pointer-events:none;transform:scale(0);animation:rp .55s ease-out forwards}
+@keyframes rp{to{transform:scale(1);opacity:0}}
+
+/* top app bar */
+.top{position:sticky;top:0;z-index:50;padding-top:env(safe-area-inset-top);background:var(--bg);transition:background .2s}
+.top.up{background:var(--sf2)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{display:flex;align-items:center;gap:10px;font:800 20px/1 var(--f);text-decoration:none;color:inherit}
+.brand svg{width:36px;height:36px;flex:none}
+.brand b{color:var(--pr)}
+.badge{padding:6px 14px;border-radius:10px;font-weight:600;font-size:14px;background:var(--tc);color:var(--ontc)}
+
+/* navigation: bottom bar on phones, top pill on wide screens */
+.bnav{position:fixed;z-index:60;left:0;right:0;bottom:0;display:flex;height:calc(80px + env(safe-area-inset-bottom));padding:12px 8px env(safe-area-inset-bottom);background:var(--sf2)}
+.bnav button{position:relative;overflow:hidden;flex:1;display:flex;flex-direction:column;align-items:center;gap:4px;border:0;background:none;cursor:pointer;font-size:12px;font-weight:600;color:var(--mut)}
+.bnav i{display:grid;place-items:center;width:64px;height:32px;border-radius:16px;transition:background .25s,width .25s}
+.bnav svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.bnav .on{color:var(--ink)}.bnav .on i{background:var(--prc);color:var(--onprc)}
+
+/* buttons */
+.btn{position:relative;overflow:hidden;display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 26px;border:0;border-radius:999px;font-weight:600;font-size:16px;cursor:pointer;text-decoration:none;color:var(--onpr);background:var(--pr);transition:box-shadow .2s,transform .15s}
+.btn:active{transform:scale(.97)}
+.btn:disabled{opacity:.38;cursor:not-allowed;transform:none}
+.btn.ghost{background:var(--bg);color:var(--pr);border:1px solid var(--ol)}
+
+/* hero */
+.hero{margin-top:8px;display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:center;padding:clamp(22px,4vw,48px);border-radius:32px;background:var(--prc);color:var(--onprc)}
+h1{font:800 clamp(30px,4.6vw,54px)/1.18 var(--f);text-wrap:balance}
+.lead{margin:16px 0 24px;font-size:clamp(16px,1.8vw,19px);max-width:52ch}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:28px}
+.stat{padding:12px 14px;border-radius:20px;background:var(--bg);color:var(--mut);font-size:14px;line-height:1.3}
+.stat b{display:block;font:800 28px/1.15 var(--f);color:var(--pr)}
+.stage{position:relative;aspect-ratio:1;max-width:400px;width:100%;margin-inline:auto;display:grid;place-items:center;perspective:900px;border-radius:28px;background:color-mix(in srgb,var(--bg) 70%,transparent);overflow:hidden}
+.stack{position:relative;width:62%;height:62%;transform-style:preserve-3d;transform:rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg));transition:transform .15s ease-out}
+.cardx{position:absolute;inset:0;display:grid;place-items:center;border-radius:28px;font:800 clamp(44px,9vw,72px) var(--f);box-shadow:0 14px 28px -12px rgba(0,0,0,.4);animation:turn 9s ease-in-out infinite}
+.c1{background:var(--pr);color:var(--onpr)}
+.c2{background:var(--tc);color:var(--ontc);font-size:clamp(28px,5.6vw,46px);animation-delay:-6s}
+.c3{background:var(--sf2);color:var(--ink);animation-delay:-3s}
+@keyframes turn{0%,27%{transform:none;z-index:3}33%,60%{transform:rotate(-9deg) translateX(-30px) scale(.95);z-index:1}66%,94%{transform:rotate(7deg) translateX(30px) scale(.95);z-index:2}100%{transform:none;z-index:3}}
+
+/* upload */
+.panel{margin-top:24px;padding:clamp(18px,3vw,32px);border-radius:28px;background:var(--sf)}
+.panel h2,.gal h2{font:800 clamp(22px,3vw,28px)/1.25 var(--f)}
+.sub{color:var(--mut);margin:4px 0 18px}
+.dz{position:relative;overflow:hidden;display:grid;place-items:center;gap:4px;min-height:150px;padding:20px;border:2px dashed var(--pr);border-radius:24px;cursor:pointer;text-align:center;font-weight:600;background:var(--bg);transition:background .2s}
+.dz:hover,.dz.over{background:var(--prc);color:var(--onprc)}
+.dz svg{width:36px;height:36px;color:var(--pr)}
+.dz input{display:none}
+.row{display:grid;grid-template-columns:1fr 200px auto;gap:12px;margin:16px 0}
+.fld{padding:0 18px;min-height:52px;border:1px solid var(--ol);border-radius:16px;background:var(--bg);width:100%}
+.fld:focus{outline:2px solid var(--pr);outline-offset:-1px;border-color:var(--pr)}
+.chk{display:flex;gap:12px;align-items:flex-start;color:var(--mut);font-size:15px;accent-color:var(--pr)}
+.chk input{margin-top:5px;width:20px;height:20px;flex:none}
+.bar{height:6px;border-radius:3px;background:var(--sf2);overflow:hidden;margin-top:16px}
+.bar i{display:block;height:100%;width:0;border-radius:3px;background:var(--pr);transition:width .2s}
+#status{margin-top:10px;font-weight:600;min-height:1.6em}
+.prev{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+.prev img{width:72px;height:72px;object-fit:cover;border-radius:16px}
+
+/* gallery */
+.gal{padding-top:36px}
+.tools{position:sticky;top:calc(64px + env(safe-area-inset-top));z-index:20;display:flex;flex-direction:column;gap:10px;padding:12px 0;margin-bottom:8px;background:var(--bg)}
+.search{position:relative}
+.search svg{position:absolute;left:18px;top:50%;translate:0 -50%;width:22px;fill:none;stroke:var(--mut);stroke-width:2;stroke-linecap:round}
+.search input{padding-left:52px;border:0;border-radius:999px;background:var(--sf2);min-height:54px}
+.chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none}
+.chip{position:relative;overflow:hidden;flex:none;min-height:36px;padding:0 16px;border:1px solid var(--ol);border-radius:10px;background:none;cursor:pointer;font-weight:600;font-size:14px}
+.chip.on{background:var(--prc);color:var(--onprc);border-color:transparent}
+.chip.on::before{content:"✓ "}
+.mason{columns:4 210px;column-gap:14px}
+.card{content-visibility:auto;contain-intrinsic-size:auto 280px;position:relative;overflow:hidden;break-inside:avoid;margin:0 0 14px;padding:0;border:0;border-radius:20px;background:var(--sf);cursor:pointer;display:block;width:100%;text-align:left;animation:fade .35s both;transition:transform .15s}
+.card:active{transform:scale(.97)}
+@keyframes fade{from{opacity:0}}
+.imgbox{position:relative;overflow:hidden;background:var(--sf2)}
+.imgbox img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .4s}
+.imgbox img.ok{opacity:1}
+.tag,.dl{position:absolute;padding:3px 10px;border-radius:8px;font-size:12px;font-weight:600;color:#fff;background:rgba(20,18,24,.62)}
+.tag{top:8px;left:8px}.dl{bottom:8px;right:8px}
+.nm{padding:10px 14px 12px;font-weight:600;font-size:16px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sk{break-inside:avoid;margin-bottom:14px;border-radius:20px;background:linear-gradient(100deg,var(--sf) 30%,var(--sf2) 50%,var(--sf) 70%);background-size:200% 100%;animation:shim 1.3s linear infinite}
+@keyframes shim{to{background-position:-200% 0}}
+.empty{padding:50px 10px;text-align:center;color:var(--mut);font-weight:600}
+.more{display:flex;margin:24px auto 0}
+
+/* detail sheet */
+.modal{position:fixed;inset:0;z-index:80;display:grid;place-items:center;padding:20px;background:rgba(0,0,0,.5)}
+.mbox{position:relative;display:grid;grid-template-columns:1.4fr 1fr;gap:24px;width:min(1000px,100%);max-height:92vh;overflow:auto;padding:20px;border-radius:28px;background:var(--sf);animation:pop .25s cubic-bezier(.2,.9,.3,1)}
+@keyframes pop{from{opacity:0;transform:translateY(40px)}}
+.mbox img{width:100%;max-height:78vh;object-fit:contain;border-radius:20px;background:var(--bg)}
+.mside{display:flex;flex-direction:column;gap:12px;justify-content:center}
+.mside h3{font:800 26px/1.25 var(--f);word-break:break-word}
+.mside p{color:var(--mut)}
+.nav{display:flex;gap:10px}.nav .btn{flex:1;padding:0 12px}
+.hint{font-size:14px;color:var(--mut)}
+
+/* snackbar */
+.toast{position:fixed;left:16px;right:16px;bottom:calc(96px + env(safe-area-inset-bottom));z-index:90;max-width:520px;margin-inline:auto;translate:0 24px;opacity:0;padding:14px 18px;border-radius:12px;background:var(--inv);color:var(--oninv);font-weight:600;transition:.25s;pointer-events:none}
+.toast.on{translate:0 0;opacity:1}
+footer{margin-top:48px;padding:24px 0 112px;text-align:center;color:var(--mut);font-size:14px}
+
+@media (min-width:821px){
+.bnav{top:10px;bottom:auto;left:50%;right:auto;translate:-50% 0;height:44px;padding:0;border-radius:999px}
+.bnav button{flex-direction:row;gap:6px;padding:0 18px 0 8px;font-size:14px}
+.bnav i{width:36px;height:30px}
+.toast{bottom:28px}
+footer{padding-bottom:40px}
+}
+@media (max-width:820px){
+.hero{grid-template-columns:1fr}.stage{max-width:300px}
+.row{grid-template-columns:1fr}
+.modal{place-items:end center;padding:0}
+.mbox{grid-template-columns:1fr;border-radius:28px 28px 0 0;padding-top:30px}
+.mbox::before{content:"";position:absolute;top:10px;left:50%;translate:-50% 0;width:32px;height:4px;border-radius:2px;background:var(--ol)}
+.mbox img{max-height:52vh}
+.mason{columns:2 140px}
+}
+
+/* share + install */
+.btn.app{min-height:56px;padding:0 24px 0 10px;gap:12px;color:#fff;background:linear-gradient(135deg,#6750a4 0%,#8e5fe0 55%,#c06bd8 100%);box-shadow:0 8px 20px -6px rgba(103,80,164,.65),inset 0 1px 0 rgba(255,255,255,.35)}
+.btn.app::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 35%,rgba(255,255,255,.35) 50%,transparent 65%);translate:-120% 0;animation:shine 3.2s ease-in-out infinite}
+@keyframes shine{0%,55%{translate:-120% 0}100%{translate:120% 0}}
+.btn.app .ai{display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:#fff;color:#6750a4;animation:bob 2s ease-in-out infinite}
+.btn.app .ai svg{width:22px;height:22px}
+@keyframes bob{50%{transform:translateY(2px)}}
+.btn.app .at{display:flex;flex-direction:column;align-items:flex-start;line-height:1.15;text-align:left}
+.btn.app .at b{font-size:17px;font-weight:800}
+.btn.app .at small{font-size:12px;font-weight:600;opacity:.9}
+html{touch-action:manipulation;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+/* clean native-style install button */
+.btn.app{min-height:52px;padding:0 30px;gap:10px;color:var(--onpr);background:var(--pr);box-shadow:0 1px 3px rgba(0,0,0,.28);font-size:16px;font-weight:600;letter-spacing:.2px}
+.btn.app::after{display:none}
+.btn.app svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.btn.app:active{transform:scale(.97)}
+
+.hr{display:flex;align-items:center;gap:8px}
+.ibtn{position:relative;overflow:hidden;display:inline-flex;align-items:center;justify-content:center;gap:6px;height:40px;min-width:40px;padding:0 12px;border:1px solid var(--ol);border-radius:999px;background:var(--bg);color:var(--pr);font-weight:600;font-size:14px;cursor:pointer}
+.ibtn svg,.btn svg{width:20px;height:20px;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.ibtn span{display:none}
+.sheet{place-items:end center;padding:0}
+.sbox{position:relative;width:min(520px,100%);max-height:92vh;overflow:auto;padding:30px 20px calc(20px + env(safe-area-inset-bottom));border-radius:28px 28px 0 0;background:var(--sf);display:flex;flex-direction:column;gap:12px;animation:pop .25s cubic-bezier(.2,.9,.3,1)}
+.sbox::before{content:"";position:absolute;top:10px;left:50%;translate:-50% 0;width:32px;height:4px;border-radius:2px;background:var(--ol)}
+.sbox h3{font:800 22px/1.3 var(--f)}
+.sbox p,.sbox li{color:var(--mut)}
+.sbox ol{padding-left:22px;display:flex;flex-direction:column;gap:6px}
+.sgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.sgrid .btn{padding:0 12px}
+@media (min-width:821px){.ibtn span{display:inline}.sheet{place-items:center;padding:20px}.sbox{border-radius:28px}.sbox::before{display:none}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+<a class="brand" href="#top" aria-label="AI Character Khan"><svg viewBox="0 0 120 120" aria-hidden="true"><rect x="1" y="1" width="118" height="118" rx="29" fill="#1d1b20" stroke="#49454f" stroke-width="2"/><path d="M44 24c-10 0-12 4-12 12v10c0 6-4 10-10 14 6 4 10 8 10 14v10c0 8 2 12 12 12" fill="none" stroke="#d0bcff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><path d="M76 24c10 0 12 4 12 12v10c0 6 4 10 10 14-6 4-10 8-10 14v10c0 8-2 12-12 12" fill="none" stroke="#d0bcff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="60" cy="52" r="9" fill="#ffb877"/><path d="M46 86c0-10 6-15 14-15s14 5 14 15z" fill="#ffb877"/></svg><span>AI Character <b>Khan</b></span></a>
+<div class="hr"><span class="badge">100% Free</span><button class="ibtn" data-share aria-label="Share"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg><span>Share</span></button></div></div></header>
+
+<nav class="bnav" aria-label="मुख्य मेनू">
+<button class="on" data-go="top"><i><svg viewBox="0 0 24 24"><path d="M4 11l8-7 8 7v8a1 1 0 0 1-1 1h-4v-6H9v6H5a1 1 0 0 1-1-1z"/></svg></i>Home</button>
+<button data-go="gallery"><i><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="3"/><circle cx="9" cy="10" r="1.6"/><path d="m4 18 5-5 4 4 3-3 4 4"/></svg></i>Characters</button>
+<button data-go="adminBox"><i><svg viewBox="0 0 24 24"><path d="M12 16V5m0 0-4 4m4-4 4 4M5 19h14"/></svg></i>Upload</button>
+</nav>
+
+<main id="top">
+<section class="wrap hero">
+<div>
+<h1>अपने AI वीडियो के लिए HD Characters बिल्कुल Free में लो</h1>
+<p class="lead">No sign-up, No payment. Character चुनिए, HD quality की image Download कीजिए और अपने AI content में use कीजिए। जितनी चाहें उतनी images लीजिए।</p>
+<div class="btns"><button class="btn" data-go="gallery">Browse Characters</button><button class="btn ghost" data-go="adminBox">Upload Yours</button></div>
+<div class="btns" style="margin-top:12px"><button class="btn app" id="installBtn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 20h14"/></svg><span>Download App</span></button><button class="btn ghost" data-share><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg>Share</button></div>
+<div class="stats"><div class="stat"><b id="sCount">0</b>Characters</div><div class="stat"><b id="sDl">0</b>Downloads</div><div class="stat"><b>HD</b>Real Quality</div></div>
+</div>
+<div class="stage" id="stage"><div class="stack" id="stack"><div class="cardx c1">AI</div><div class="cardx c2">कैरेक्टर</div><div class="cardx c3">खान</div></div></div>
+</section>
+
+<section class="wrap panel" id="adminBox">
+<h2>Upload Your Character</h2>
+<p class="sub">अगर आपके पास पहले से कोई AI Character की image है, तो आप भी उसे यहाँ Upload कर सकते हैं ताकि आपके Friends भी उसे use कर सकें।</p>
+<label class="dz" id="dz"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16V4m0 0-4 4m4-4 4 4M4 16v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3"/></svg><span id="dzText">Image चुनिए या यहाँ drag & drop कीजिए</span><input type="file" id="file" accept="image/png,image/jpeg,image/webp" multiple></label>
+<div class="row"><input class="fld" id="name" maxlength="40" placeholder="Character का नाम"><select class="fld" id="cat"></select><button class="btn" id="up" disabled>Upload</button></div>
+<label class="chk"><input type="checkbox" id="agree"><span>मैं मानता/मानती हूँ कि यह इमेज मेरी बनाई है, इसमें कुछ गलत या आपत्तिजनक नहीं है, और यह सबके लिए फ्री है।</span></label>
+<div class="prev" id="prev"></div>
+<div class="bar" id="barw" hidden><i id="bar"></i></div><div id="status" role="status"></div>
+</section>
+
+<section class="wrap gal" id="gallery">
+<h2>All Characters</h2>
+<div class="tools"><div class="search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input class="fld" id="q" type="search" placeholder="Search by name"></div><div class="chips" id="chips"></div></div>
+<div class="mason" id="grid"></div><div class="empty" id="msg" hidden></div>
+<button class="btn ghost more" id="more" hidden>Load More</button>
+</section>
+</main>
+
+<footer><div class="wrap"><div class="btns" style="justify-content:center;margin-bottom:16px"><button class="btn" data-share><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg>Share with Friends</button></div>© AI Character Khan · सारी images अपने AI videos में use करने के लिए Free</div></footer>
+
+<div class="modal" id="modal" hidden><div class="mbox" role="dialog" aria-modal="true"><img id="mImg" alt=""><div class="mside"><h3 id="mName"></h3><p id="mCat"></p><a class="btn" id="mDl" download>Download HD</a><div class="nav"><button class="btn ghost" id="mPrev" aria-label="Previous">‹ Prev</button><button class="btn ghost" id="mNext" aria-label="Next">Next ›</button></div><button class="btn ghost" id="mClose">Close</button><p class="hint">Keyboard के ← → से भी बदल सकते हैं</p></div></div></div>
+
+<div class="modal sheet" id="shareSheet" hidden><div class="sbox" role="dialog" aria-modal="true" aria-label="Share">
+<h3>Friends &amp; Family को Share करें</h3>
+<div class="sgrid">
+<a class="btn" id="shWa" target="_blank" rel="noopener">WhatsApp</a>
+<a class="btn ghost" id="shTg" target="_blank" rel="noopener">Telegram</a>
+<a class="btn ghost" id="shFb" target="_blank" rel="noopener">Facebook</a>
+<a class="btn ghost" id="shX" target="_blank" rel="noopener">X (Twitter)</a>
+</div>
+<button class="btn ghost" id="shCopy">Copy Link</button>
+<p class="hint">Instagram के लिए Link copy करके Story, Bio या Message में paste कर दीजिए।</p>
+<button class="btn ghost" data-close>Close</button>
+</div></div>
+<div class="modal sheet" id="installSheet" hidden><div class="sbox" role="dialog" aria-modal="true" aria-label="Download App">
+<h3>App को Home Screen पर जोड़ें</h3>
+<div id="insIos" hidden><ol><li>नीचे वाले <b>Share</b> icon (⬆️) पर tap कीजिए।</li><li><b>“Add to Home Screen”</b> चुनिए।</li><li>ऊपर <b>Add</b> दबाइए।</li></ol><p class="hint">यह सिर्फ iPhone के Safari browser में होता है।</p></div>
+<div id="insOther" hidden><ol><li>Browser के Menu (⋮ तीन dots) पर tap कीजिए।</li><li><b>“Install app”</b> या <b>“Add to Home screen”</b> चुनिए।</li><li>Confirm कर दीजिए, App icon Home Screen पर आ जाएगा।</li></ol></div>
+<button class="btn ghost" data-close>Got it</button>
+</div></div>
+<div class="toast" id="toast"></div>
+
+<script type="module">
+import{initializeApp}from"https://www.gstatic.com/firebasejs/10.12.5/firebase-app.js";
+import{getFirestore,collection,addDoc,doc,updateDoc,increment,query,orderBy,limit,startAfter,getDocs,serverTimestamp}from"https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore.js";
+const app=initializeApp({apiKey:"AIzaSyD-ElLSBQh8h6e3XTOfV23PdApdGMlG4M0",authDomain:"ai-character-khan.firebaseapp.com",projectId:"ai-character-khan",storageBucket:"ai-character-khan.firebasestorage.app",messagingSenderId:"430700095077",appId:"1:430700095077:web:1b36b10a5c775ac756888c"});
+const db=getFirestore(app);
+const CLOUD="lfsdugn3",PRESET="khan_upload",PAGE=24;
+const CATS=["लड़का","लड़की","जानवर","रोबोट","फैंटेसी","अन्य"];
+const $=id=>document.getElementById(id);
+const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e};
+const S={view:[],items:[],last:null,done:false,busy:false,cat:"All",q:"",files:[],cur:null};
+
+/* toast */
+let tt;const toast=m=>{const t=$("toast");t.textContent=m;t.classList.add("on");clearTimeout(tt);tt=setTimeout(()=>t.classList.remove("on"),2600)};
+
+
+/* scroll buttons */
+document.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>$(b.dataset.go).scrollIntoView({behavior:"smooth"}));
+
+document.querySelector(".hero").addEventListener("pointermove",e=>{const h=e.currentTarget.getBoundingClientRect();e.currentTarget.style.setProperty("--sx",(e.clientX-h.left)+"px");e.currentTarget.style.setProperty("--sy",(e.clientY-h.top)+"px")},{passive:true});
+/* hero tilt */
+const stage=$("stage"),stack=$("stack");
+stage.addEventListener("pointermove",e=>{const r=stage.getBoundingClientRect();const x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;stack.style.setProperty("--ry",(x*26)+"deg");stack.style.setProperty("--rx",(-y*26)+"deg")});
+stage.addEventListener("pointerleave",()=>{stack.style.setProperty("--ry","0deg");stack.style.setProperty("--rx","0deg")});
+
+/* categories */
+CATS.forEach(c=>{const o=el("option",null,c);o.value=c;$("cat").appendChild(o)});
+["All",...CATS].forEach(c=>{const b=el("button","chip"+(c==="All"?" on":""),c);b.onclick=()=>{S.cat=c;document.querySelectorAll(".chip").forEach(x=>x.classList.toggle("on",x===b));render()};$("chips").appendChild(b)});
+$("q").addEventListener("input",e=>{S.q=e.target.value.trim().toLowerCase();render()});
+
+/* cloudinary url helper */
+const tf=(u,t)=>u.replace("/upload/","/upload/"+t+"/");
+
+/* gallery */
+const RM=matchMedia("(prefers-reduced-motion:reduce)").matches;
+function num(id,to){const e=$(id),from=+e.dataset.v||0;e.dataset.v=to;if(RM||from===to){e.textContent=to;return}const t0=performance.now();(function f(t){const k=Math.min(1,(t-t0)/700),v=Math.round(from+(to-from)*(1-Math.pow(1-k,3)));e.textContent=v;if(k<1)requestAnimationFrame(f)})(t0)}
+function stats(){num("sCount",S.items.length);num("sDl",S.items.reduce((a,x)=>a+(x.downloads||0),0))}
+function skeletons(){const g=$("grid");g.textContent="";for(let i=0;i<8;i++){const s=el("div","sk");s.style.height=(180+(i*47)%160)+"px";g.appendChild(s)}}
+function render(){
+  const g=$("grid"),m=$("msg");g.textContent="";
+  const list=S.items.filter(x=>(S.cat==="All"||x.cat===S.cat)&&(!S.q||String(x.name).toLowerCase().includes(S.q)));
+  m.hidden=list.length>0;S.view=list;
+  if(!list.length)m.textContent=S.items.length?"इस खोज में कोई कैरेक्टर नहीं मिला।":"अभी कोई कैरेक्टर नहीं है। ऊपर से पहली इमेज आप ही अपलोड कीजिए!";
+  list.forEach((x,i)=>{
+    const c=el("button","card");c.style.setProperty("--i",Math.min(i,12));c.type="button";
+    const box=el("div","imgbox");box.style.aspectRatio=(x.w&&x.h)?x.w+"/"+x.h:"1/1";
+    const im=new Image();im.alt=x.name;im.loading="lazy";im.decoding="async";im.onload=()=>im.classList.add("ok");im.src=tf(x.url,"c_limit,w_600,q_auto,f_auto");
+    box.append(im,el("span","tag",x.cat));const d=el("span","dl","⬇ "+(x.downloads||0));x.badge=d;box.appendChild(d);
+    c.append(box,el("div","nm",x.name));
+    c.onclick=()=>openModal(x);
+    c.addEventListener("pointermove",e=>{const r=c.getBoundingClientRect();c.style.setProperty("--mx",(e.clientX-r.left)+"px");c.style.setProperty("--my",(e.clientY-r.top)+"px")});
+    g.appendChild(c);
+  });
+  $("more").hidden=S.done||!S.items.length;
+  stats();
+}
+const CK="akh_c1";
+function fromCache(){try{const c=JSON.parse(sessionStorage.getItem(CK)||"null");if(c&&c.length){S.items=c;render();return true}}catch(e){}return false}
+function toCache(){try{sessionStorage.setItem(CK,JSON.stringify(S.items.slice(0,PAGE).map(({id,name,cat,url,w,h,downloads})=>({id,name,cat,url,w,h,downloads}))))}catch(e){}}
+async function load(reset){
+  if(S.busy)return;S.busy=true;
+  const hadCache=reset&&S.items.length>0;
+  if(reset){if(!hadCache){S.items=[];skeletons()}S.last=null;S.done=false;$("msg").hidden=true;$("more").hidden=true}
+  try{
+    const qs=[orderBy("at","desc"),limit(PAGE)];if(S.last)qs.push(startAfter(S.last));
+    const snap=await getDocs(query(collection(db,"characters"),...qs));
+    if(reset)S.items=[];
+    snap.forEach(d=>S.items.push({id:d.id,...d.data()}));
+    if(snap.docs.length)S.last=snap.docs[snap.docs.length-1];
+    if(snap.docs.length<PAGE)S.done=true;
+    render();if(reset)toCache();
+  }catch(e){console.error(e);$("grid").textContent="";const m=$("msg");m.hidden=false;m.textContent="गैलरी लोड नहीं हो सकी। इंटरनेट जाँचिए और पेज दोबारा खोलिए।"}
+  S.busy=false;
+}
+$("more").onclick=()=>load(false);
+
+/* modal */
+function openModal(x){
+  S.cur=x;$("mImg").src=tf(x.url,"c_limit,w_1400,q_auto,f_auto");$("mImg").alt=x.name;
+  $("mName").textContent=x.name;$("mCat").textContent="Category: "+x.cat;
+  $("mDl").href=tf(x.url,"fl_attachment");$("modal").hidden=false;$("mClose").focus();
+}
+function step(d){const v=S.view,i=v.indexOf(S.cur);if(i<0||!v.length)return;openModal(v[(i+d+v.length)%v.length])}
+$("mPrev").onclick=()=>step(-1);$("mNext").onclick=()=>step(1);
+const closeModal=()=>{$("modal").hidden=true;$("mImg").removeAttribute("src")};
+$("mClose").onclick=closeModal;
+$("modal").addEventListener("click",e=>{if(e.target.id==="modal")closeModal()});
+addEventListener("keydown",e=>{if($("modal").hidden)return;if(e.key==="Escape")closeModal();else if(e.key==="ArrowLeft")step(-1);else if(e.key==="ArrowRight")step(1)});
+$("mDl").addEventListener("click",async()=>{
+  const x=S.cur;if(!x)return;
+  try{await updateDoc(doc(db,"characters",x.id),{downloads:increment(1)});x.downloads=(x.downloads||0)+1;if(x.badge)x.badge.textContent="⬇ "+x.downloads;stats();toast("Download शुरू हो गया")}
+  catch(e){console.error(e);toast("Download शुरू हुआ, count update नहीं हो सका")}
+});
+
+/* upload */
+const DZ="Image चुनिए या यहाँ drag & drop कीजिए",st=(m,bad)=>{const s=$("status");s.textContent=m;s.style.color=bad?"var(--pink)":"var(--mint)"};
+function ready(){$("up").disabled=!S.files.length}
+function pick(list){
+  const ok=[];let msg="";
+  for(const f of list){
+    if(!["image/png","image/jpeg","image/webp"].includes(f.type)){msg="सिर्फ PNG, JPEG या WEBP इमेज चलेगी।";continue}
+    if(f.size>10*1024*1024){msg="हर इमेज 10 MB से छोटी होनी चाहिए।";continue}
+    ok.push(f);
+  }
+  if(ok.length>5){msg="एक बार में अधिकतम 5 इमेज चुनिए।";ok.length=5}
+  S.files=ok;const pv=$("prev");pv.querySelectorAll("img").forEach(i=>URL.revokeObjectURL(i.src));pv.textContent="";
+  ok.forEach(f=>{const i=new Image();i.alt="";i.src=URL.createObjectURL(f);pv.appendChild(i)});$("dzText").textContent=ok.length?ok.length+" images selected":DZ;
+  st(msg,!!msg);ready();
+}
+$("file").onchange=e=>pick([...e.target.files]);
+const dz=$("dz");
+["dragenter","dragover"].forEach(n=>dz.addEventListener(n,e=>{e.preventDefault();dz.classList.add("over")}));
+["dragleave","drop"].forEach(n=>dz.addEventListener(n,e=>{e.preventDefault();dz.classList.remove("over")}));
+dz.addEventListener("drop",e=>pick([...e.dataTransfer.files]));
+
+function send(file,onp){return new Promise((res,rej)=>{
+  const x=new XMLHttpRequest(),fd=new FormData();fd.append("file",file);fd.append("upload_preset",PRESET);
+  x.open("POST","https://api.cloudinary.com/v1_1/"+CLOUD+"/image/upload");x.timeout=120000;
+  x.upload.onprogress=e=>{if(e.lengthComputable)onp(e.loaded/e.total)};
+  x.onload=()=>{try{const j=JSON.parse(x.responseText);x.status>=200&&x.status<300&&j.secure_url?res(j):rej(new Error(j.error?.message||"upload failed"))}catch(err){rej(err)}};
+  x.onerror=()=>rej(new Error("network"));x.ontimeout=()=>rej(new Error("timeout"));x.send(fd);
+})}
+$("up").onclick=async()=>{
+  if(!S.files.length)return;
+  if(!$("agree").checked){st("पहले ऊपर वाला चेक-बॉक्स टिक कीजिए।",true);return}
+  let last=0;try{last=+localStorage.getItem("lastUp")||0}catch(e){}
+  const wait=Math.ceil((15000-(Date.now()-last))/1000);
+  if(wait>0){st("कृपया "+wait+" सेकंड रुककर दोबारा कोशिश कीजिए।",true);return}
+  const base=($("name").value.trim()||"कैरेक्टर").slice(0,40),cat=$("cat").value,n=S.files.length;
+  $("up").disabled=true;$("barw").hidden=false;let done=0;
+  try{localStorage.setItem("lastUp",String(Date.now()))}catch(e){}
+  try{
+    for(let i=0;i<n;i++){
+      st("Uploading… ("+(i+1)+"/"+n+")");
+      const j=await send(S.files[i],p=>{$("bar").style.width=Math.round(((i+p)/n)*100)+"%"});
+      const nm=(n>1?base+" "+(i+1):base).slice(0,60);
+      await addDoc(collection(db,"characters"),{name:nm,cat,url:j.secure_url,publicId:j.public_id,w:j.width,h:j.height,downloads:0,at:serverTimestamp()});
+      done++;
+    }
+    $("bar").style.width="100%";st("✅ "+done+" image upload हो गई! Thank you.");toast("Upload सफल रहा ✓");
+    S.files=[];$("file").value="";$("dzText").textContent=DZ;$("prev").textContent="";$("name").value="";$("agree").checked=false;
+    await load(true);
+  }catch(e){console.error(e);try{localStorage.removeItem("lastUp")}catch(_){}st("अपलोड नहीं हो सका ("+done+"/"+n+" हुई)। कारण: "+((e&&e.message)||"unknown"),true)}
+  setTimeout(()=>{$("barw").hidden=true;$("bar").style.width="0"},1200);ready();
+};
+
+/* android-style touch ripple, app-bar elevation, bottom-nav state */
+addEventListener("pointerdown",e=>{const t=e.target.closest(".btn,.chip,.card,.bnav button,.dz");if(!t||t.disabled)return;const r=t.getBoundingClientRect(),s=Math.max(r.width,r.height)*2,k=el("span","rp");k.style.cssText="width:"+s+"px;height:"+s+"px;left:"+(e.clientX-r.left-s/2)+"px;top:"+(e.clientY-r.top-s/2)+"px";t.appendChild(k);setTimeout(()=>k.remove(),600)},{passive:true});
+const appbar=document.querySelector(".top"),navb=[...document.querySelectorAll(".bnav button")];
+function onScroll(){appbar.classList.toggle("up",scrollY>8);let a="top";for(const id of["adminBox","gallery"]){if($(id).getBoundingClientRect().top<innerHeight*.45)a=id}navb.forEach(b=>b.classList.toggle("on",b.dataset.go===a))}
+addEventListener("scroll",onScroll,{passive:true});onScroll();
+
+
+/* share */
+const SITE=()=>{const c=document.querySelector('meta[property="og:url"]');const u=c&&c.content;return(u&&/^https?:\/\//.test(u)&&!/YOUR-DOMAIN/.test(u))?u:location.href.split("#")[0]};
+const SHARE_TITLE="AI Character Khan",SHARE_TEXT="अपने AI video के लिए HD Characters Free में लो।";
+const openSheet=id=>{$(id).hidden=false};
+const closeSheets=()=>document.querySelectorAll(".sheet").forEach(x=>x.hidden=true);
+document.querySelectorAll(".sheet").forEach(x=>{x.addEventListener("click",e=>{if(e.target===x||e.target.closest("[data-close]"))closeSheets()})});
+addEventListener("keydown",e=>{if(e.key==="Escape")closeSheets()});
+async function copyLink(){const u=SITE();try{await navigator.clipboard.writeText(u)}catch(e){const t=document.createElement("textarea");t.value=u;t.style.position="fixed";t.style.opacity="0";document.body.appendChild(t);t.select();try{document.execCommand("copy")}catch(_){}t.remove()}toast("Link copied ✓")}
+function shareSheet(){
+  const u=encodeURIComponent(SITE()),t=encodeURIComponent(SHARE_TITLE+" — "+SHARE_TEXT);
+  $("shWa").href="https://wa.me/?text="+t+"%20"+u;
+  $("shTg").href="https://t.me/share/url?url="+u+"&text="+t;
+  $("shFb").href="https://www.facebook.com/sharer/sharer.php?u="+u;
+  $("shX").href="https://twitter.com/intent/tweet?text="+t+"&url="+u;
+  openSheet("shareSheet");
+}
+$("shCopy").onclick=async()=>{await copyLink();closeSheets()};
+let bannerF=null;
+fetch("og-image.jpg").then(r=>r.blob()).then(b=>{bannerF=new File([b],"AI-Character-Khan.jpg",{type:"image/jpeg"})}).catch(()=>{});
+document.querySelectorAll("[data-share]").forEach(b=>b.addEventListener("click",async()=>{
+  if(navigator.share){
+    try{
+      const withImg=bannerF&&navigator.canShare&&navigator.canShare({files:[bannerF]});
+      await navigator.share(withImg?{files:[bannerF],title:SHARE_TITLE,text:SHARE_TEXT+"\n"+SITE()}:{title:SHARE_TITLE,text:SHARE_TEXT,url:SITE()});
+      return}
+    catch(e){if(e&&e.name==="AbortError")return}
+  }
+  shareSheet();
+}));
+
+/* install as app (add to home screen) */
+let deferred=null;
+const standalone=()=>matchMedia("(display-mode: standalone)").matches||navigator.standalone===true;
+const ios=/iphone|ipad|ipod/i.test(navigator.userAgent)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1);
+function hideInstall(){const b=$("installBtn");if(b)b.hidden=true}
+if(standalone())hideInstall();
+addEventListener("beforeinstallprompt",e=>{e.preventDefault();deferred=e});
+addEventListener("appinstalled",()=>{deferred=null;hideInstall();toast("App Home Screen में जुड़ गया ✓")});
+$("installBtn").onclick=async()=>{
+  if(!deferred&&!ios){await new Promise(r=>{let n=0;const t=setInterval(()=>{if(deferred||++n>12){clearInterval(t);r()}},150)})}
+  if(deferred){deferred.prompt();try{await deferred.userChoice}catch(e){}deferred=null;return}
+  if(ios){$("insIos").hidden=false;$("insOther").hidden=true;openSheet("installSheet");return}
+  toast("Browser menu से “Add to Home screen” चुनिए");
+};
+["gesturestart","gesturechange","gestureend"].forEach(n=>document.addEventListener(n,e=>e.preventDefault()));
+document.addEventListener("touchmove",e=>{if(e.touches.length>1)e.preventDefault()},{passive:false});
+if("serviceWorker" in navigator&&/^https?:$/.test(location.protocol)){addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}))}
+
+fromCache();load(true);
+</script>
+</body>
+</html>
